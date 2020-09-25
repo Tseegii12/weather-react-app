@@ -43,7 +43,7 @@ function SearchBar(props) {
     return(
         <Select
             showSearch
-            style={{ width: 500, padding: '20px 0 20px 0' }}
+            style={{ padding: '20px 0 20px 0' }}
             placeholder="Хот сонгоно уу..."
             optionFilterProp="children"
             onChange={onChange}
